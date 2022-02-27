@@ -3,6 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        double b = 2;
+MySexyClass my1 = new MySexyClass(b);
+System.out.println(my1.SquareIt());
     }
+
 }
